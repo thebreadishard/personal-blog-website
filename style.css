@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    /* set display to grid */
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    /* setup rows and columns */
+    grid-template-columns: 30px repeat(7,1fr);
+    grid-template-rows: 70px 400px 1fr;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd"
+    "sd sd main main main main main"
+    "ft ft ft ft ft ft ft";
+}
