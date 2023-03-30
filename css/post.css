@@ -30,6 +30,8 @@
 
 .feature {
     grid-area: feat;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .content {
