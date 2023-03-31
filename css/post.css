@@ -1,4 +1,4 @@
-.container {
+.post-container {
     /* set display to grid */
     display: grid;
     width: 90%;
@@ -15,26 +15,26 @@
     border: 2px solid yellow;
 }
 
-.box {
+.post-box {
     border: 1px solid red;
     background: #F8FA9D;
 }
 
-.header {
+.post-header {
     grid-area: hd;
 }
 
-.footer {
+.post-footer {
     grid-area: ft;
 }
 
-.feature {
+.post-feature {
     grid-area: feat;
     font-size: 20px;
     line-height: 30px;
 }
 
-.content {
+.post-content {
     grid-area: main;
 }
 
