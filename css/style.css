@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(sidebar.css);
 @import url(footer.css);
 
 body {
@@ -34,10 +35,12 @@ body {
 
 .footer {
     grid-area: ft;
+    padding-left: 10px;
 }
 
 .sidebar {
     grid-area: sd;
+    padding-left: 10px;
 }
 
 .content {
