@@ -37,3 +37,7 @@
 .content {
     grid-area: main;
 }
+
+.indent {
+    text-indent: 5%;
+}
