@@ -1,17 +1,16 @@
 .post-container {
     /* set display to grid */
     display: grid;
-    width: 90%;
+    width: 30%;
     margin: auto;
     margin-top: 150px;
     /* setup rows and columns */
-    grid-template-columns: 30px repeat(7,1fr);
-    grid-template-rows: 100px 350px 600px 100px;
+    grid-template-columns: 400px;
+    grid-template-rows: 70px 3400px 1fr;
     grid-template-areas: 
-    "hd hd hd hd hd hd hd"
-    "feat feat feat feat feat feat feat"
-    "main main main main main main main"
-    "ft ft ft ft ft ft ft";
+    "hd"
+    "main"
+    "ft";
     border: 2px solid yellow;
 }
 
@@ -32,12 +31,16 @@
     grid-area: feat;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
 }
 
 .post-content {
+    font-size: 20px;
+    line-height: 30px;
     grid-area: main;
+    padding-left: 30px;
 }
 
 .indent {
-    text-indent: 5%;
+    text-indent: 8%;
 }

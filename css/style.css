@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(sidebar.css);
 @import url(footer.css);
+@import url(atlas-ui.css);
 
 body {
     background-color: antiquewhite;
@@ -46,3 +47,10 @@ body {
 .content {
     grid-area: main;
 }
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 390px;
+  }
