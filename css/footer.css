@@ -1,0 +1,6 @@
+.footer-content {
+    font-size: 10px;
+    line-height: 15px;
+    grid-area: ft;
+    padding-left: 30px;
+}
