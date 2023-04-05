@@ -18,7 +18,7 @@ body {
     grid-template-rows: 70px 400px 1fr;
     grid-template-areas: 
     "hd hd hd hd hd hd hd"
-    "sd sd main main main main main"
+    "sd sd main main main sdr sdr"
     "ft ft ft ft ft ft ft";
 }
 
@@ -44,7 +44,12 @@ body {
     padding-left: 10px;
 }
 
-.content {
+.sidebar-right {
+    grid-area: sdr;
+    padding-left: 10px;
+}
+
+.image-content {
     grid-area: main;
 }
 

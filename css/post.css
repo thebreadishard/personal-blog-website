@@ -1,12 +1,12 @@
 .post-container {
     /* set display to grid */
     display: grid;
-    width: 30%;
+    width: 470px;
     margin: auto;
     margin-top: 150px;
     /* setup rows and columns */
-    grid-template-columns: 400px;
-    grid-template-rows: 70px 3400px 1fr;
+    grid-template-columns: 470px;
+    grid-template-rows: 70px 3000px 1fr;
     grid-template-areas: 
     "hd"
     "main"
